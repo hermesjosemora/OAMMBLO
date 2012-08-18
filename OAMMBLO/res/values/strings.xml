@@ -2,5 +2,13 @@
 <resources>
 
     <string name="app_name">OAMMBLO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_time_line">TimeLine</string>
+    <string name="editUserMessage">usuario@dominio</string>
+    <string name="textViewUsuarioMessage">Digite su correo electrónico</string>
+    <string name="textViewContrasenaMessage">Digite su contraseña</string>
+    <string name="buttonEntrarMessage">Entrar</string>
+    <string name="title_activity_login">Login</string>
 
 </resources>
