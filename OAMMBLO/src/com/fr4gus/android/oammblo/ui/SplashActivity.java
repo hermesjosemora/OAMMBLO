@@ -3,8 +3,9 @@ package com.fr4gus.android.oammblo.ui;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.fr4gus.android.oammblo.LoginActivity;
 import com.fr4gus.android.oammblo.R;
-import com.fr4gus.android.oammblo.TimeLine;
+
 
 /**
  * Shows App logo for few seconds.
@@ -15,7 +16,7 @@ import com.fr4gus.android.oammblo.TimeLine;
 public class SplashActivity extends OammbloActivity {
 
 	 protected boolean active = true;
-	 protected int splashTime = 1000;
+	 protected int splashTime = 2000;
 	 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class SplashActivity extends OammbloActivity {
     
     private void openApp(){
         finish();
-           startActivity(new Intent(this,TimeLine.class));
+        startActivity(new Intent(this,LoginActivity.class));
        }
 
 }

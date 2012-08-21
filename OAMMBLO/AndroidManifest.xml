@@ -35,6 +35,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fr4gus.android.oamblo" />
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TimeLineActivity"
+            android:label="@string/title_activity_time_line" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fr4gus.android.oammblo" />
+        </activity>
     </application>
 
 </manifest>
