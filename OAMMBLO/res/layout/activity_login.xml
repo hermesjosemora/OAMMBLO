@@ -13,32 +13,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
         android:text="@string/textViewUsuarioMessage" />
-    
-    
-    <EditText
-        android:id="@+id/editUser"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="@string/editUserMessage" >
-
-        <requestFocus />
-    </EditText>
-
-    
-
-    <TextView
-        android:id="@+id/textViewContrasena"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editUser"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="@string/textViewContrasenaMessage" />
 
     <Button
         android:id="@+id/buttonEntrar"
@@ -53,10 +27,30 @@
         android:id="@+id/editContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewContrasena"
+        android:layout_above="@+id/buttonEntrar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
         android:ems="10"
         android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editContrasena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/textViewContrasenaMessage" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewContrasena"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="@string/editUserMessage"
+        android:inputType="textEmailAddress" />
 
 </RelativeLayout>

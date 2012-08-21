@@ -19,22 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".TimeLine"
-            android:label="@string/title_activity_time_line" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Login"
-            android:label="@string/title_activity_login" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fr4gus.android.oamblo" />
-        </activity>
+               
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
