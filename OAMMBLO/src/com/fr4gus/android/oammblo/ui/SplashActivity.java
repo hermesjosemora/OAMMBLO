@@ -48,8 +48,9 @@ public class SplashActivity extends OammbloActivity {
        }
     
     private void openApp(){
-        finish();
+    	 finish(); 
         startActivity(new Intent(this,LoginActivity.class));
-       }
+         
+    }
 
 }
